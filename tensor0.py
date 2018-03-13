@@ -80,7 +80,6 @@ def my_input_fn(features, targets, batch_size=1, shuffle=True, num_epochs=None):
         shuffle: True or False. Whether to shuffle the data.
         num_epochs: Number of epochs for which data should be repeated. None =
         indefinitely.
-
         Returns: tuple of (feature, labels) for next data batch
         """
     # convert pandas data into a dict of numpy arrays
